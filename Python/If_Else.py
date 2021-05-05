@@ -10,7 +10,7 @@ import sys
 
 if __name__ == '__main__':
     n = int(raw_input().strip())
-    if n <= 1 or n >=100:
+    if n < 1 or n > 100:
         quit()
     if n % 2 == 1:
         print("Weird")
